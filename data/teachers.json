@@ -1,0 +1,62 @@
+[
+  {
+    "id": "zhangxuefeng",
+    "name": "张雪峰视角讲师",
+    "shortName": "雪峰视角",
+    "title": "就业导向志愿规划",
+    "avatar": "张",
+    "intro": "适合普通家庭做专业、城市、就业导向的现实判断。",
+    "direction": "高考志愿 / 专业选择 / 就业结果",
+    "skills": ["冲稳保思路", "专业避坑", "就业倒推", "普通家庭决策"],
+    "skillFile": "zhangxuefeng.md",
+    "theme": "red"
+  },
+  {
+    "id": "collegeAdvisor",
+    "name": "院校填报讲师",
+    "shortName": "院校规划",
+    "title": "位次与冲稳保策略",
+    "avatar": "院",
+    "intro": "帮助用户按省份、位次、选科和目标城市拆解院校梯度。",
+    "direction": "院校层级 / 位次匹配 / 志愿梯度",
+    "skills": ["冲稳保比例", "院校层次", "地域选择", "风险提示"],
+    "skillFile": "college-advisor.md",
+    "theme": "blue"
+  },
+  {
+    "id": "majorEmployment",
+    "name": "专业就业讲师",
+    "shortName": "专业就业",
+    "title": "专业前景与职业路径",
+    "avatar": "业",
+    "intro": "从课程难度、就业方向、读研必要性和行业周期看专业选择。",
+    "direction": "专业分析 / 就业路径 / 读研判断",
+    "skills": ["专业对比", "行业前景", "岗位路径", "读研必要性"],
+    "skillFile": "major-employment.md",
+    "theme": "green"
+  },
+  {
+    "id": "psychologyCounselor",
+    "name": "心理沟通讲师",
+    "shortName": "心理沟通",
+    "title": "焦虑缓解与家庭沟通",
+    "avatar": "心",
+    "intro": "适合学生和家长处理考后焦虑、意见冲突和选择压力。",
+    "direction": "心理支持 / 亲子沟通 / 决策压力",
+    "skills": ["压力拆解", "亲子沟通", "情绪稳定", "选择冲突"],
+    "skillFile": "psychology-counselor.md",
+    "theme": "violet"
+  },
+  {
+    "id": "subjectPlanner",
+    "name": "学科规划讲师",
+    "shortName": "学科规划",
+    "title": "选科与大学学习匹配",
+    "avatar": "学",
+    "intro": "分析选科组合、学科能力、大学课程难度和专业适配度。",
+    "direction": "选科组合 / 学科能力 / 学习难度",
+    "skills": ["选科匹配", "课程难度", "能力画像", "学习建议"],
+    "skillFile": "subject-planner.md",
+    "theme": "orange"
+  }
+]

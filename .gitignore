@@ -1,0 +1,5 @@
+node_modules
+dist
+.env*.local
+dev.log
+dev.err.log
