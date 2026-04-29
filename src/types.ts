@@ -16,6 +16,22 @@ export type Teacher = {
 export type ChatMessage = {
   role: "user" | "assistant";
   content: string;
+  structuredReply?: StructuredReply;
+};
+
+export type StructuredReplyItem = {
+  text: string;
+  children?: StructuredReplyItem[];
+};
+
+export type StructuredReplySection = {
+  title: string;
+  items: StructuredReplyItem[];
+};
+
+export type StructuredReply = {
+  sections: StructuredReplySection[];
+  summary?: string;
 };
 
 export type StudentProfile = {

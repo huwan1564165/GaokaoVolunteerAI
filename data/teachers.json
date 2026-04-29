@@ -7,56 +7,115 @@
     "avatar": "张",
     "intro": "适合普通家庭做专业、城市、就业导向的现实判断。",
     "direction": "高考志愿 / 专业选择 / 就业结果",
-    "skills": ["冲稳保思路", "专业避坑", "就业倒推", "普通家庭决策"],
+    "skills": [
+      "冲稳保思路",
+      "专业避坑",
+      "就业倒推",
+      "普通家庭决策"
+    ],
     "skillFile": "zhangxuefeng.md",
     "theme": "red"
   },
   {
-    "id": "collegeAdvisor",
-    "name": "院校填报讲师",
-    "shortName": "院校规划",
-    "title": "位次与冲稳保策略",
-    "avatar": "院",
-    "intro": "帮助用户按省份、位次、选科和目标城市拆解院校梯度。",
-    "direction": "院校层级 / 位次匹配 / 志愿梯度",
-    "skills": ["冲稳保比例", "院校层次", "地域选择", "风险提示"],
-    "skillFile": "college-advisor.md",
-    "theme": "blue"
-  },
-  {
-    "id": "majorEmployment",
-    "name": "专业就业讲师",
-    "shortName": "专业就业",
-    "title": "专业前景与职业路径",
-    "avatar": "业",
-    "intro": "从课程难度、就业方向、读研必要性和行业周期看专业选择。",
-    "direction": "专业分析 / 就业路径 / 读研判断",
-    "skills": ["专业对比", "行业前景", "岗位路径", "读研必要性"],
-    "skillFile": "major-employment.md",
-    "theme": "green"
-  },
-  {
-    "id": "psychologyCounselor",
-    "name": "心理沟通讲师",
-    "shortName": "心理沟通",
-    "title": "焦虑缓解与家庭沟通",
-    "avatar": "心",
-    "intro": "适合学生和家长处理考后焦虑、意见冲突和选择压力。",
-    "direction": "心理支持 / 亲子沟通 / 决策压力",
-    "skills": ["压力拆解", "亲子沟通", "情绪稳定", "选择冲突"],
-    "skillFile": "psychology-counselor.md",
+    "id": "tarot",
+    "name": "塔罗讲师",
+    "shortName": "塔罗",
+    "title": "塔罗牌阵与心理指引",
+    "avatar": "塔",
+    "intro": "适合感情、事业、选择题、每日指引和阶段性自我观察。",
+    "direction": "塔罗牌阵 / 当下能量 / 行动建议",
+    "skills": [
+      "单张牌",
+      "三牌阵",
+      "五牌阵",
+      "关系分析"
+    ],
+    "skillFile": "tarot.md",
     "theme": "violet"
   },
   {
-    "id": "subjectPlanner",
-    "name": "学科规划讲师",
-    "shortName": "学科规划",
-    "title": "选科与大学学习匹配",
-    "avatar": "学",
-    "intro": "分析选科组合、学科能力、大学课程难度和专业适配度。",
-    "direction": "选科组合 / 学科能力 / 学习难度",
-    "skills": ["选科匹配", "课程难度", "能力画像", "学习建议"],
-    "skillFile": "subject-planner.md",
+    "id": "fortuneMaster",
+    "name": "命理专家",
+    "shortName": "命理",
+    "title": "多体系命理与玄学咨询",
+    "avatar": "命",
+    "intro": "支持八字、紫微、塔罗、西占、数字命理、奇门、六爻、梅花和风水择时。",
+    "direction": "命理分析 / 玄学分流 / 阶段建议",
+    "skills": [
+      "八字紫微",
+      "奇门六爻",
+      "综合解读",
+      "风水择时"
+    ],
+    "skillFile": "fortune-master.md",
+    "theme": "orange"
+  },
+  {
+    "id": "familyFinance",
+    "name": "家庭财务规划讲师",
+    "shortName": "财务规划",
+    "title": "现金流、预算、税务与资产配置",
+    "avatar": "财",
+    "intro": "适合梳理收入支出、应急金、预算、净资产、税务材料和长期资产配置。",
+    "direction": "家庭财务 / 预算现金流 / 税务优化 / 资产追踪",
+    "skills": [
+      "现金流分析",
+      "预算规划",
+      "税务材料",
+      "资产配置"
+    ],
+    "skillFile": "finance/family-finance.md",
+    "theme": "green"
+  },
+  {
+    "id": "beancountAdvisor",
+    "name": "记账与资产台账讲师",
+    "shortName": "资产台账",
+    "title": "Beancount、Fava 与个人财务数据分析",
+    "avatar": "账",
+    "intro": "适合搭建 Beancount 复式记账、设计科目、分析 Fava 报表和管理资产台账。",
+    "direction": "纯文本记账 / 复式记账 / Fava 报表 / 财务数据分析",
+    "skills": [
+      "Beancount",
+      "Fava 报表",
+      "科目设计",
+      "消费分析"
+    ],
+    "skillFile": "finance/beancount-advisor.md",
+    "theme": "blue"
+  },
+  {
+    "id": "usStockResearch",
+    "name": "美股研究讲师",
+    "shortName": "美股研究",
+    "title": "基本面、行业、新闻与机构资金分析",
+    "avatar": "股",
+    "intro": "适合分析美股公司、行业轮动、市场新闻、机构持仓和投资备忘录。",
+    "direction": "美股研究 / 行业轮动 / 基本面分析 / 市场新闻",
+    "skills": [
+      "公司研究",
+      "行业轮动",
+      "新闻分析",
+      "机构资金"
+    ],
+    "skillFile": "finance/us-stock-research.md",
+    "theme": "red"
+  },
+  {
+    "id": "tradingRisk",
+    "name": "交易策略与风控讲师",
+    "shortName": "交易风控",
+    "title": "技术分析、仓位管理、回测与交易计划",
+    "avatar": "交",
+    "intro": "适合制定交易计划、技术面分析、仓位计算、止损设置、期权策略和回测复盘。",
+    "direction": "交易策略 / 仓位管理 / 技术分析 / 风险控制",
+    "skills": [
+      "技术分析",
+      "仓位管理",
+      "策略回测",
+      "交易复盘"
+    ],
+    "skillFile": "finance/trading-risk.md",
     "theme": "orange"
   }
 ]
